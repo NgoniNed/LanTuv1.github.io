@@ -1,0 +1,1 @@
+/home/renee/Projects/LanTutv1.github.io/bin/Release/net6.0/publish/web.config

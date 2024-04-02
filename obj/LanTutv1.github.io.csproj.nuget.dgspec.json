@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/renee/Projects/LanTutv1.github.io/LanTutv1.github.io.csproj": {}
+  },
+  "projects": {
+    "/home/renee/Projects/LanTutv1.github.io/LanTutv1.github.io.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/renee/Projects/LanTutv1.github.io/LanTutv1.github.io.csproj",
+        "projectName": "LanTutv1.github.io",
+        "projectPath": "/home/renee/Projects/LanTutv1.github.io/LanTutv1.github.io.csproj",
+        "packagesPath": "/home/renee/.nuget/packages/",
+        "outputPath": "/home/renee/Projects/LanTutv1.github.io/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/renee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "PublishSPAforGitHubPages.Build": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/237/sdk/6.0.420/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
